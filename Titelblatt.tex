@@ -24,6 +24,7 @@ Tutor: Sandeeta Thakur}
 \fancyhf{}
 \fancyhead[L]{Microscope}
 \fancyhead[R]{\thepage}
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
 
 \begin{document}
 
@@ -32,8 +33,9 @@ Tutor: Sandeeta Thakur}
 \tableofcontents
 \clearpage
 
+\section{Preamble}
 The first aim of this experiment is to construct a microscope and then to determine the magnification for three different tube lengths
-and comparint the results with the theoretical expectation. After this the ocular is to be calibrated, to enable the measurement of the
+and comparing the results with the theoretical expectation. After this the ocular is to be calibrated, to enable the measurement of the
 distance between and the width of the wires of a wire grating.
 Lastly the resolvable separation and the numerical aperture is to be calculated using the measured resolution limit.
 
@@ -46,6 +48,10 @@ Lastly the resolvable separation and the numerical aperture is to be calculated 
 \input{sections/Messprotokoll.tex}
 
 \input{sections/Auswertung.tex}
+
+\input{sections/error_analysis.tex}
+
+\input{sections/appendix.tex}
 
 
 \end{document}
